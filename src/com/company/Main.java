@@ -38,7 +38,6 @@ public class Main {
     }
 
     public static boolean solutionInLinearWithStructure(ArrayList<Integer> a, int sum){
-        int n = a.size();
         HashSet<Integer> hashSet = new HashSet<>(a);
         for (Integer integer : a) {
             if (hashSet.contains(sum - integer)) {
